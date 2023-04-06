@@ -19,12 +19,16 @@ Prompts for Coders
   - [Modernizing Old Code](#modernizing-old-code)
   - [Adding Coding Best Practices or Principles](#adding-coding-best-practices-or-principles)
   - [Detecting and Fixing Errors](#detecting-and-fixing-errors)
-  - [Create Boilerplate Code](#create-boilerplate-code)
+  - [Debug a React component](#debug-a-react-component)
   - [Create Unit Tests](#create-unit-tests)
   - [Transpiling Code](#transpiling-code)
+  - [Responsive Design](#responsive-design)
+  - [Internationalization](#internationalization)
   - [Add comments to code](#add-comments-to-code)
 - [Code Generation](#code-generation)
   - [Create Functions](#create-functions)
+  - [Add Functionality](#add-functionality)
+  - [Create Boilerplate Code](#create-boilerplate-code)
 
 ## 🚩 Tips
 
@@ -191,12 +195,15 @@ and you'll give me the code with all the corrections explained line by line
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Create Boilerplate Code
+### Debug a React component
 
-Starting new projects can be painful. While GPT-4 doesn’t know your business logic, it can be used to generate boilerplate code. This isn’t technically refactoring, but it’s amazing and can be part of the programming lifecycle process.
+This process typically involves identifying the source of the error, understanding the issue, and implementing a solution to resolve the issue
 
 Prompt:
-> Write me a boilerplate Node.js function that will take a variable of type User, validate that the user has the right permissions, fetch an array of item type Posts from a postgres database and return them. Leave comments for business logic.
+
+> Please find and fix the bug in the [component name] component that is causing [describe the issue].
+>
+>[INSERT YOUR CODE HERE]
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
@@ -223,6 +230,26 @@ Prompt:
 > Rewrite the following code in Rust:
 >
 > [INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### Responsive Design
+
+Responsive design adapts a website to different screen sizes and devices, using flexible layouts, images, and CSS media queries. It aims to provide a good viewing experience for all users
+
+Prompt:
+> RPlease implement responsive design for the [component name] component to ensure that it looks and functions correctly on different screen sizes and devices. Consider using [responsive design technique or library] to achieve this.
+>
+>[insert code here]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### Internationalization
+
+Internationalization, also known as i18n, is the process of designing a software application to be able to support multiple languages and regional differences
+
+Prompt:
+> Please implement internationalization for the [component name] component to ensure that it can be used by users in multiple languages. Consider using [internationalization library or technique] to achieve this.
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
@@ -267,7 +294,51 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
+### Add Functionality
+
+Prompt:
+
+> I need a piece of code in [INSERT YOUR TECHNOLOGIES HERE] to implement [real-time communication]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### Create Boilerplate Code
+
+Starting new projects can be painful. While GPT-4 doesn’t know your business logic, it can be used to generate boilerplate code. This isn’t technically refactoring, but it’s amazing and can be part of the programming lifecycle process.
+
+<details>
+  <summary>Prompt:</summary>
+
+```
+Write me a boilerplate Node.js function that will take a variable of type User,
+validate that the user has the right permissions, fetch an array of item type Posts
+from a postgres database and return them. Leave comments for business logic.
+```
+
+</details>
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
 ## 📚 Tools
 
 - [ChatGPT](https://chat.openai.com/)
 - ...
+
+<details>
+  <summary>Prompt:</summary>
+  
+  <br>
+
+```
+Write me a boilerplate Node.js function that will take a variable of type User,
+validate that the user has the right permissions, fetch an array of item type
+Posts from a postgres database and return them. Leave comments for business logic.
+```
+
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
