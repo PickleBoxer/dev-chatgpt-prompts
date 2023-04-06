@@ -12,12 +12,19 @@ Prompts for Coders
 
 - [Direction / Advise / Questions](#direction--advise--questions)
 - [Adding Documentation](#adding-documentation)
+- [Explain Code](#explain-code)
+- [Ask for alternatives](#ask-for-alternatives)
 - [Code Refactoring](#code-refactoring)
   - [Refactor Code](#refactor-code)
   - [Modernizing Old Code](#modernizing-old-code)
   - [Adding Coding Best Practices or Principles](#adding-coding-best-practices-or-principles)
   - [Detecting and Fixing Errors](#detecting-and-fixing-errors)
   - [Create Boilerplate Code](#create-boilerplate-code)
+  - [Create Unit Tests](#create-unit-tests)
+  - [Transpiling Code](#transpiling-code)
+  - [Add comments to code](#add-comments-to-code)
+- [Code Generation](#code-generation)
+  - [Create Functions](#create-functions)
 
 ## 🚩 Tips
 
@@ -103,6 +110,33 @@ Prompt 2#:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
+## Explain Code
+
+Don't spend time trying to figure out how code works, just ask ChatGPT to explain it to you
+
+Prompt:
+
+> Context: I'm starting a new position as backend developer and I have to start to understand how some functions are working
+>Technologies: [INSERT YOUR TECHNOLOGIES HERE]
+>You have to: explain me the code line by line
+>
+>[INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Ask for alternatives
+
+If you're not satisfied with your solution you can ask to ChatGPT to give you alternatives
+
+Prompt:
+
+> I'll provide you with a piece of code that I made and 
+>I need you give me alternatives to do the same in other way:
+>
+>[INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
 ## Code Refactoring
 
 ### Refactor Code
@@ -144,10 +178,16 @@ Prompt:
 
 Sometimes we are unaware of the vulnerabilities or potential issues our code can create. Having GPT-4 review and address code issues can save you more than just time.
 
-Prompt:
+Prompt 1#:
 > Review this code for errors and refactor to fix any issues:
 >
 >[INSERT YOUR CODE HERE]
+
+Prompt 2#:
+
+>I'm developing software in [INSERT YOUR TECHNOLOGIES HERE] and I need you help me to find and
+fix all the errors in my code, following the best practices. I'll provide you my code
+and you'll give me the code with all the corrections explained line by line 
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
@@ -162,9 +202,15 @@ Prompt:
 
 ### Create Unit Tests
 
-Unit tests are not only important for your code base but can also be a useful way to quickly validate anything produced by GPT.
+Unit tests are automated tests that check the behavior of individual units of code in isolation. They help catch bugs early and make it easier to maintain the code.
 
-Prompt:
+Prompt 1#: 
+
+> Please write unit tests for [file or module name] to ensure its proper functioning
+>
+>[insert code here]
+
+Prompt 2#:
 > Create 2 unit tests for the provided code. One for a successful condition and one for failure.
 
 <sup>[back to table of contents](#table-of-contents)</sup>
@@ -176,7 +222,7 @@ There are many reasons why you may need to convert code from one language to ano
 Prompt:
 > Rewrite the following code in Rust:
 >
->[INSERT YOUR CODE HERE]
+> [INSERT YOUR CODE HERE]
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
@@ -187,7 +233,37 @@ If your code is self-explanatory but requires commenting, this can be a huge tim
 Prompt:
 > Add comments to the following code:
 >
->[INSERT YOUR CODE HERE]
+> [INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Code Generation
+
+### Create Functions
+
+Provide context of your software and ask directly for creating functions you need for your software
+
+Prompt:
+
+> Context: I'm creating a software to manage projects
+>
+> Technologies: Go, PostgreSQL
+>
+> Description: It's a function that let me find users by its email or username.
+>
+> You have to: create the function for me
+
+Also you can add in the description what you expect to receive from your function. If you already have an structure for the User, specify it, for example:
+
+Prompt:
+
+> Context: I'm creating a software to manage projects
+>
+> Technologies: Go, PostgreSQL
+>
+> Description: It's a function that let me find users by its email or username and returns the structure type "Member"
+>
+> You have to: create the function for me
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
