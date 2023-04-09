@@ -10,6 +10,7 @@ The list is divided into categories: [ prompts for coders, students, marketers, 
 
 Prompts for Coders
 
+- [Re-write Prompt](#re-write-prompt)
 - [Direction / Advise / Questions](#direction--advise--questions)
 - [Adding Documentation](#adding-documentation)
 - [Explain Code](#explain-code)
@@ -94,13 +95,13 @@ Prompt:
 
 > Create two [ define technology ] tests for the above 'tempFunction' function. One that is expected to pass and one that is expected to fail.
 
-## Adding Documentation
+## Re-write Prompt
 
 Adding documentation requires creating clear and comprehensive explanations of a module’s purpose, design, and implementation.
 
 Prompt:
 
-> [prompt]
+> [your prompt]
 >
 > Re-write the above text to be more verbose and include a lot of superfluous description about each thing, use very painting language.
 
