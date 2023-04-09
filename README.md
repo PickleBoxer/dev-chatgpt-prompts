@@ -94,6 +94,16 @@ Prompt:
 
 > Create two [ define technology ] tests for the above 'tempFunction' function. One that is expected to pass and one that is expected to fail.
 
+## Adding Documentation
+
+Adding documentation requires creating clear and comprehensive explanations of a module’s purpose, design, and implementation.
+
+Prompt:
+
+> [prompt]
+>
+> Re-write the above text to be more verbose and include a lot of superfluous description about each thing, use very painting language.
+
 ## Direction / Advise / Questions
 
 ## Adding Documentation
@@ -306,14 +316,11 @@ Prompt:
 
 Starting new projects can be painful. While GPT-4 doesn’t know your business logic, it can be used to generate boilerplate code. This isn’t technically refactoring, but it’s amazing and can be part of the programming lifecycle process.
 
-<details>
-  <summary>Prompt:</summary>
+Prompt:
 
-```
-Write me a boilerplate Node.js function that will take a variable of type User,
-validate that the user has the right permissions, fetch an array of item type Posts
-from a postgres database and return them. Leave comments for business logic.
-```
+>Write me a boilerplate Node.js function that will take a variable of type User,
+>validate that the user has the right permissions, fetch an array of item type Posts
+>from a postgres database and return them. Leave comments for business logic.
 
 </details>
 
@@ -323,22 +330,3 @@ from a postgres database and return them. Leave comments for business logic.
 
 - [ChatGPT](https://chat.openai.com/)
 - ...
-
-<details>
-  <summary>Prompt:</summary>
-  
-  <br>
-
-```
-Write me a boilerplate Node.js function that will take a variable of type User,
-validate that the user has the right permissions, fetch an array of item type
-Posts from a postgres database and return them. Leave comments for business logic.
-```
-
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
