@@ -97,7 +97,7 @@ Prompt:
 
 ## Re-write Prompt
 
-Adding documentation requires creating clear and comprehensive explanations of a module’s purpose, design, and implementation.
+Let's see if we can get GPT4 to make or average prompts and turn them into "voyage inspirant" type mastery prompts.
 
 Prompt:
 
