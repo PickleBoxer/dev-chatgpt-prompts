@@ -30,6 +30,7 @@ Prompts for Coders
   - [Create Functions](#create-functions)
   - [Add Functionality](#add-functionality)
   - [Create Boilerplate Code](#create-boilerplate-code)
+  - [You are a world class software engineer](#you-are-a-world-class-software-engineer)
 
 ## 🚩 Tips
 
@@ -323,7 +324,24 @@ Prompt:
 >validate that the user has the right permissions, fetch an array of item type Posts
 >from a postgres database and return them. Leave comments for business logic.
 
-</details>
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### You are a world class software engineer
+
+In this clip I show you how to *drastically* improve ChatGPT’s outputs for software generation.
+
+Prompt:
+
+>You are a world class software engineer.
+>
+>I need you to draft a technical software spec for building the following:
+>{{description}}
+>
+>Think through how you would build it step by step.
+>
+>Then, respond with the complete spec as a well-organized markdown file.
+>
+>I will then reply with "build," and you will proceed to implement the exact spec, writing all of the code needed. I will periodically interject with "continue" to >prompt you to keep going. Continue until complete.
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
