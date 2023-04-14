@@ -13,12 +13,17 @@ Prompts for Coders
 - [Re-write Prompt](#re-write-prompt)
 - [Direction / Advise / Questions](#direction--advise--questions)
 - [Adding Documentation](#adding-documentation)
+- [Write your terms and conditions](#write-your-terms-and-conditions)
+- [Produce cheat sheets](#produce-cheat-sheets)
+- [Generate Readme Files](#generate-readme-files)
+- [Write detailed blogs](#write-detailed-blogs)
 - [Explain Code](#explain-code)
 - [Ask for alternatives](#ask-for-alternatives)
 - [Code Refactoring](#code-refactoring)
   - [Refactor Code](#refactor-code)
   - [Modernizing Old Code](#modernizing-old-code)
   - [Adding Coding Best Practices or Principles](#adding-coding-best-practices-or-principles)
+  - [Follow coding style guidelines](#follow-coding-style-guidelines)
   - [Detecting and Fixing Errors](#detecting-and-fixing-errors)
   - [Debug a React component](#debug-a-react-component)
   - [Create Unit Tests](#create-unit-tests)
@@ -126,6 +131,38 @@ Prompt 2#:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
+## Write your terms and conditions
+
+Prompt :
+
+> Create terms and services for my website about an [AI tool] called [name].
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Produce cheat sheets
+
+Prompt :
+
+> Write a cheat sheet for [markdown formatting].
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Generate Readme Files
+
+Prompt :
+
+> Generate documentation for the code below. You should include detailed instructions to allow a developer to run it on a local machine, explain what the code does, and list vulnerabilities that exist in this code. [enter code]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Write detailed blogs
+
+Prompt :
+
+> Write a detailed blog on How to build a [COVID tracker] using React with proper structuring of code.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
 ## Explain Code
 
 Don't spend time trying to figure out how code works, just ask ChatGPT to explain it to you
@@ -180,6 +217,17 @@ Prompt:
 <sup>[back to table of contents](#table-of-contents)</sup>
 
 ### Adding Coding Best Practices or Principles
+
+Let ChatGPT rewrite the code for you according to style guidelines.
+
+Prompt:
+> Rewrite the code below following the Google style guidelines for javascript.
+>
+> [INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### Follow coding style guidelines
 
 If your organization or code base uses specific coding practices and styles that you want to maintain, you can provide instructions to GPT-4 on which particular coding practice or style you’d like it to focus on.
 
