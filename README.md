@@ -1,10 +1,10 @@
 # 🤖 DEV ChatGPT Prompts
 
-Welcome to my personal collection of ChatGPT prompts for developers!
+Welcome to my personal collection of ChatGPT prompts for developers! 🙌
 
-This repository contains a list of powerful ChatGPT prompts that can help you get the creative juices flowing. Whether you are a beginner or an experienced pro, these prompts can help you think outside the box and find new solutions to problems.
+This repository contains a list of powerful ChatGPT prompts that can help you get the creative juices flowing. 💡 Whether you are a beginner or an experienced pro, these prompts can help you think outside the box and find new solutions to problems. 🚀
 
-The list is divided into categories: [ prompts for coders, students, marketers, and content writers ]. So no matter your profession, there is something here for everyone! Let’s dive right into these powerful ChatGPT prompts that can help take your creativity to the next level!
+The list is divided into categories: [ prompts for coders, students, marketers, and content writers ]. So no matter your profession, there is something here for everyone! 😊 Let’s dive right into these powerful ChatGPT prompts that can help take your creativity to the next level! 🌊
 
 ## Table of Contents
 
@@ -47,13 +47,13 @@ Here are some tips and techniques to improve:
 Try breaking your prompts and desired outcome across multiple steps. Keeping prompts to have a single outcome has shown to produce better results than combined prompts. For example, ask for a review, then ask for a refactor based on the review response. This may become less important in time as LLMs increase their token limit.
 
 - **Give Examples:**
-Provide expected inputs, data and outputs to improve accuracy quality.
+Provide expected inputs, data and outputs to improve accuracy quality. 📝
 
 - **Be Specific:**
-Don’t be afraid to list exactly what you want, what you know, what is needed, and what not to include.
+Don’t be afraid to list exactly what you want, what you know, what is needed, and what not to include. 🔎
 
 - **Ask it to Reflect:**
-A technique called reflexion has been shown to increase GPT4’s accuracy. Basically ask it ‘Why were you wrong?’ or get it to reflect and review its own response.
+A technique called reflexion has been shown to increase GPT4’s accuracy. Basically ask it ‘Why were you wrong?’ or get it to reflect and review its own response. 🤔
 
 ## 🔗 A multi-prompt approach (prompt chaining)
 
@@ -192,7 +192,7 @@ Prompt:
 
 ## Code Refactoring
 
-### Refactor Code
+## Refactor Code
 
 Ask to ChatGPT to refactor your code
 
@@ -205,7 +205,7 @@ Refactoring code is an essential process in software development that aims to im
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Modernizing Old Code
+## Modernizing Old Code
 
 By providing your old function to GPT-4 and asking it to refactor it to modern coding practices, you can quickly modernize your code.
 
@@ -216,7 +216,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Adding Coding Best Practices or Principles
+## Adding Coding Best Practices or Principles
 
 Let ChatGPT rewrite the code for you according to style guidelines.
 
@@ -227,7 +227,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Follow coding style guidelines
+## Follow coding style guidelines
 
 If your organization or code base uses specific coding practices and styles that you want to maintain, you can provide instructions to GPT-4 on which particular coding practice or style you’d like it to focus on.
 
@@ -238,7 +238,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Detecting and Fixing Errors
+## Detecting and Fixing Errors
 
 Sometimes we are unaware of the vulnerabilities or potential issues our code can create. Having GPT-4 review and address code issues can save you more than just time.
 
@@ -255,7 +255,7 @@ and you'll give me the code with all the corrections explained line by line
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Debug a React component
+## Debug a React component
 
 This process typically involves identifying the source of the error, understanding the issue, and implementing a solution to resolve the issue
 
@@ -267,7 +267,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Create Unit Tests
+## Create Unit Tests
 
 Unit tests are automated tests that check the behavior of individual units of code in isolation. They help catch bugs early and make it easier to maintain the code.
 
@@ -282,7 +282,7 @@ Prompt 2#:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Transpiling Code
+## Transpiling Code
 
 There are many reasons why you may need to convert code from one language to another. For example, you may have found a repository with code for one language that you need in another, you’re moving code bases, or maybe your boss read an article on the latest front-end framework and now you’re moving to a divisive new library.
 
@@ -293,7 +293,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Responsive Design
+## Responsive Design
 
 Responsive design adapts a website to different screen sizes and devices, using flexible layouts, images, and CSS media queries. It aims to provide a good viewing experience for all users
 
@@ -304,7 +304,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Internationalization
+## Internationalization
 
 Internationalization, also known as i18n, is the process of designing a software application to be able to support multiple languages and regional differences
 
@@ -313,7 +313,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Add comments to code
+## Add comments to code
 
 If your code is self-explanatory but requires commenting, this can be a huge time-saver.
 
@@ -326,7 +326,7 @@ Prompt:
 
 ## Code Generation
 
-### Create Functions
+## Create Functions
 
 Provide context of your software and ask directly for creating functions you need for your software
 
@@ -354,7 +354,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Add Functionality
+## Add Functionality
 
 Prompt:
 
@@ -362,7 +362,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### Create Boilerplate Code
+## Create Boilerplate Code
 
 Starting new projects can be painful. While GPT-4 doesn’t know your business logic, it can be used to generate boilerplate code. This isn’t technically refactoring, but it’s amazing and can be part of the programming lifecycle process.
 
@@ -374,7 +374,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-### You are a world class software engineer
+## You are a world class software engineer
 
 In this clip I show you how to *drastically* improve ChatGPT’s outputs for software generation.
 
