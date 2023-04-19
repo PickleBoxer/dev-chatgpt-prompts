@@ -11,6 +11,7 @@ The list is divided into categories: [ prompts for coders, students, marketers, 
 Prompts for Coders
 
 - [Re-write Prompt](#re-write-prompt)
+- [ChatGPT prompt optimizer](#chatgpt-prompt-optimizer)
 - [Direction / Advise / Questions](#direction--advise--questions)
 - [Adding Documentation](#adding-documentation)
 - [Explain Code](#explain-code)
@@ -105,6 +106,16 @@ Prompt:
 > [your prompt]
 >
 > Re-write the above text to be more verbose and include a lot of superfluous description about each thing, use very painting language.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## ChatGPT prompt optimizer
+
+Prompt:
+
+> I'll provide a chatGPT prompt. You'll ask questions to understand the audience and goals, then optimize the prompt for effectiveness and relevance using the principle of specificity.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
 
 ## Direction / Advise / Questions
 
