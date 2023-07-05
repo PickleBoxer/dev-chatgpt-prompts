@@ -37,6 +37,16 @@ Prompts for Coders
   - [Add Functionality](#add-functionality)
   - [Create Boilerplate Code](#create-boilerplate-code)
   - [You are a world class software engineer](#you-are-a-world-class-software-engineer)
+- [Product Service Promotion](#product-service-promotion)
+  - [Generate innovative product ideas](#generate-innovative-product-ideas)
+  - [Develop a unique value proposition](#develop-a-unique-value-proposition)
+  - [Master the art of storytelling for marketing](#master-the-art-of-storytelling-for-marketing)
+  - [Create a successful referral program](#create-a-successful-referral-program)
+  - Master the art of upselling and cross-selling
+  - Create a viral marketing campaign
+  - Develop a powerful elevator pitch
+  - Create an actionable marketing plan
+  - Leverage content marketing for lead generation
 
 ## 🚩 Tips
 
@@ -401,6 +411,88 @@ Prompt:
 >Then, respond with the complete spec as a well-organized markdown file.
 >
 >I will then reply with "build," and you will proceed to implement the exact spec, writing all of the code needed. I will periodically interject with "continue" to >prompt you to keep going. Continue until complete.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Product Service Promotion
+
+## Generate innovative product ideas
+
+Prompt:
+
+>Brainstorm creative and unique product ideas for [insert industry or market]. 
+>
+>Focus on solving customer pain points and providing exceptional value.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Develop a unique value proposition
+
+Prompt:
+
+>Help me articulate a unique value proposition for my [insert product or service].
+>
+>Explain how this proposition differentiates my offering and appeals to my target audience.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Master the art of storytelling for marketing
+
+Prompt:
+
+>Teach me storytelling techniques for creating compelling marketing content to promote [insert product or service].
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Create a successful referral program
+
+Prompt:
+
+>Design a referral program for [insert business] that incentivizes customers to share and recommend our products or services.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Master the art of upselling and cross-selling
+
+Prompt:
+
+>Teach me effective upselling and cross-selling techniques to increase revenue and customer satisfaction in [insert business context].
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Create a viral marketing campaign
+
+Prompt:
+
+>Design a creative and attention-grabbing marketing campaign for [insert product or service] with the potential to go viral.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Develop a powerful elevator pitch
+
+Prompt:
+
+>[Insert a brief description of your product, service, or company].
+>
+>Help me create a concise and compelling elevator pitch that will effectively communicate the value of my offering.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Create an actionable marketing plan
+
+Prompt:
+
+>Develop a marketing plan for [insert product or service]. 
+>
+>Include objectives, target audience, marketing channels, and tactics for reaching my desired audience and driving sales.
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Leverage content marketing for lead generation
+
+Prompt:
+
+>Develop a content marketing strategy for [insert business] to attract, engage, and convert leads into customers.
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
