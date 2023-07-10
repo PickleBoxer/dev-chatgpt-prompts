@@ -42,11 +42,11 @@ Prompts for Coders
   - [Develop a unique value proposition](#develop-a-unique-value-proposition)
   - [Master the art of storytelling for marketing](#master-the-art-of-storytelling-for-marketing)
   - [Create a successful referral program](#create-a-successful-referral-program)
-  - Master the art of upselling and cross-selling
-  - Create a viral marketing campaign
-  - Develop a powerful elevator pitch
-  - Create an actionable marketing plan
-  - Leverage content marketing for lead generation
+  - [Master the art of upselling and cross-selling](#master-the-art-of-upselling-and-cross-selling)
+  - [Create a viral marketing campaign](#create-a-viral-marketing-campaign)
+  - [Develop a powerful elevator pitch](#develop-a-powerful-elevator-pitch)
+  - [Create an actionable marketing plan](#create-an-actionable-marketing-plan)
+  - [Leverage content marketing for lead generation](#leverage-content-marketing-for-lead-generation)
 
 ## 🚩 Tips
 
