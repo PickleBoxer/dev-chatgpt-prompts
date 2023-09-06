@@ -139,7 +139,7 @@ Prompt:
 >
 > Re-write the above text to be more verbose and include a lot of superfluous description about each thing, use very painting language.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 # ChatGPT prompt optimizer
 
@@ -147,7 +147,7 @@ Prompt:
 
 > I'll provide a chatGPT prompt. You'll ask questions to understand the audience and goals, then optimize the prompt for effectiveness and relevance using the principle of specificity.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 # Ask for alternatives
 
@@ -160,7 +160,7 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ---
 
@@ -182,7 +182,7 @@ Prompt 2#:
 >
 >[insert code here]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Write your terms and conditions
 
@@ -190,7 +190,7 @@ Prompt :
 
 > Create terms and services for my website about an [AI tool] called [name].
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Produce cheat sheets
 
@@ -198,7 +198,7 @@ Prompt :
 
 > Write a cheat sheet for [markdown formatting].
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Generate Readme Files
 
@@ -206,7 +206,7 @@ Prompt :
 
 > Generate documentation for the code below. You should include detailed instructions to allow a developer to run it on a local machine, explain what the code does, and list vulnerabilities that exist in this code. [enter code]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Write detailed blogs
 
@@ -214,7 +214,7 @@ Prompt :
 
 > Write a detailed blog on How to build a [COVID tracker] using React with proper structuring of code.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Explain Code
 
@@ -228,17 +228,32 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Architecture Diagram (Mermaid)
 
-Create a diagram of your architecture using Mermaid
+
+> [!NOTE]
+> Create a diagram of your architecture using Mermaid
 
 Prompt:
 
+
 > Write the Mermaid code for an architecture diagram for this solution [DESCRIBE SOLUTION]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+
+Example:
+
+```mermaid
+  graph TD;
+  A[Client] -->|HTTP Request| B(API Gateway);
+  B -->|HTTP Request| C[Service 1];
+  B -->|HTTP Request| D[Service 2];
+  C -->|Database Query| E[Database];
+  D -->|Database Query| E;
+```
+
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Entity Relationship Diagram (Mermaid)
 
@@ -248,7 +263,7 @@ Prompt:
 
 > Write the Mermaid code for an entity relationship diagram for these classes [INSERT CLASSES]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Code Refactoring
 
@@ -263,7 +278,7 @@ Prompt:
 
 Refactoring code is an essential process in software development that aims to improve the quality, readability, and maintainability of existing code without altering its functionality. Refactoring can enhance code efficiency, reduce errors, and make it easier to modify or extend in the future. With ChatGPT’s help, you can effectively refactor your code and achieve a better code structure.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Modernizing Old Code
 
@@ -274,7 +289,7 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Code in to Multiple Methods
 
@@ -286,7 +301,7 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Better Performance
 
@@ -298,7 +313,7 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Adding a Parameter to a Function
 
@@ -308,7 +323,7 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Adding Coding Best Practices or Principles
 
@@ -319,7 +334,7 @@ Prompt:
 >
 > [INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Follow coding style guidelines
 
@@ -330,7 +345,7 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Detecting and Fixing Errors
 
@@ -351,7 +366,7 @@ Prompt 3#:
 
 > I wrote this code [CODE] I got this error [ERROR] How can I fix it? or What does this error mean?
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Debug a React component
 
@@ -363,7 +378,7 @@ Prompt:
 >
 >[INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Create Unit Tests
 
@@ -378,7 +393,7 @@ Prompt 1#:
 Prompt 2#:
 > Create 2 unit tests for the provided code. One for a successful condition and one for failure.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Transpiling Code
 
@@ -389,7 +404,7 @@ Prompt:
 >
 > [INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Responsive Design
 
@@ -400,7 +415,7 @@ Prompt:
 >
 >[insert code here]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Internationalization
 
@@ -409,7 +424,7 @@ Internationalization, also known as i18n, is the process of designing a software
 Prompt:
 > Please implement internationalization for the [component name] component to ensure that it can be used by users in multiple languages. Consider using [internationalization library or technique] to achieve this.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Add comments to code
 
@@ -420,7 +435,7 @@ Prompt:
 >
 > [INSERT YOUR CODE HERE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Code Generation
 
@@ -450,7 +465,7 @@ Prompt:
 >
 > You have to: create the function for me
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ### Generate a Dockerfile
 
@@ -462,7 +477,7 @@ Prompt:
 >
 > [FRAMEWORK]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ### Write a RegEx
 
@@ -472,7 +487,7 @@ Prompt:
 >
 > [REQUEST]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ### Create a Class
 
@@ -482,7 +497,7 @@ Prompt:
 >
 > [JSON]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Add Functionality
 
@@ -490,7 +505,7 @@ Prompt:
 
 > I need a piece of code in [INSERT YOUR TECHNOLOGIES HERE] to implement [real-time communication]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Create Boilerplate Code
 
@@ -502,7 +517,7 @@ Prompt:
 >validate that the user has the right permissions, fetch an array of item type Posts
 >from a postgres database and return them. Leave comments for business logic.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## You are a world class software engineer
 
@@ -521,7 +536,7 @@ Prompt:
 >
 >I will then reply with "build," and you will proceed to implement the exact spec, writing all of the code needed. I will periodically interject with "continue" to >prompt you to keep going. Continue until complete.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 # Code Review
 
@@ -531,7 +546,7 @@ Prompt:
 
 > How can I improve the error handling in my [LANGUAGE] code? [CODE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Suggest Improvements
 
@@ -539,7 +554,7 @@ Prompt:
 
 > I'm working on a [LANGUAGE] project and I need you to review my code and suggest improvements. [CODE]
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 
 # Product Service Promotion
@@ -552,7 +567,7 @@ Prompt:
 >
 >Focus on solving customer pain points and providing exceptional value.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Develop a unique value proposition
 
@@ -562,7 +577,7 @@ Prompt:
 >
 >Explain how this proposition differentiates my offering and appeals to my target audience.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Master the art of storytelling for marketing
 
@@ -570,7 +585,7 @@ Prompt:
 
 >Teach me storytelling techniques for creating compelling marketing content to promote [insert product or service].
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Create a successful referral program
 
@@ -578,7 +593,7 @@ Prompt:
 
 >Design a referral program for [insert business] that incentivizes customers to share and recommend our products or services.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Master the art of upselling and cross-selling
 
@@ -586,7 +601,7 @@ Prompt:
 
 >Teach me effective upselling and cross-selling techniques to increase revenue and customer satisfaction in [insert business context].
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Create a viral marketing campaign
 
@@ -594,7 +609,7 @@ Prompt:
 
 >Design a creative and attention-grabbing marketing campaign for [insert product or service] with the potential to go viral.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Develop a powerful elevator pitch
 
@@ -604,7 +619,7 @@ Prompt:
 >
 >Help me create a concise and compelling elevator pitch that will effectively communicate the value of my offering.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Create an actionable marketing plan
 
@@ -614,7 +629,7 @@ Prompt:
 >
 >Include objectives, target audience, marketing channels, and tactics for reaching my desired audience and driving sales.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## Leverage content marketing for lead generation
 
@@ -622,7 +637,7 @@ Prompt:
 
 >Develop a content marketing strategy for [insert business] to attract, engage, and convert leads into customers.
 
-<sup>[back to table of contents](#table-of-contents)</sup>
+<sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
 ## 📚 Tools
 
