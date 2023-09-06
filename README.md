@@ -91,7 +91,7 @@ can be used to update, refactor, and review a piece of code. A well-designed set
 
 by getting GPT-4 to re-write your code into the style you want. This step will generally result in coherent output, in the style you want, but may introduce errors, so we do it first.
 
-Prompt:
+**Prompt:**
 
 >Review the following code and re-write it to modern es6 programming standards and formatting:
 >
@@ -101,7 +101,7 @@ Prompt:
 
 Get recommendations to improve any logical or security concerns introduced. It’s important that we don’t ask for a refactor, just the reasoning behind wanting the refactor.
 
-Prompt:
+**Prompt:**
 
 >Review your provided code 'tempFunction' for any logical or security concerns and provide a list of recommendations.
 
@@ -109,7 +109,7 @@ Prompt:
 
 Validate the provided recommendations. Reflexion is a powerful technique to improve the accuracy of the initial recommendations and try to eliminate any hallucinations. This is not always required but it is worth asking if you are unsure about any recommendations.
 
-Prompt:
+**Prompt:**
 
 > Review your above recommendations. Tell me why you were wrong and if any recommendations were overlooked or incorrectly added?
 
@@ -117,7 +117,7 @@ Prompt:
 
 Combine your reviews, recommendations and feedback to get GPT-4 to write your new function.
 
-Prompt:
+**Prompt:**
 
 >Re-write the 'tempFunction' function based off your review and recommendations.
 
@@ -125,7 +125,7 @@ Prompt:
 
 create some simple tests that we can run locally and validate the results
 
-Prompt:
+**Prompt:**
 
 > Create two [ define technology ] tests for the above 'tempFunction' function. One that is expected to pass and one that is expected to fail.
 
@@ -133,7 +133,7 @@ Prompt:
 
 Let's see if we can get GPT4 to make or average prompts and turn them into "voyage inspirant" type mastery prompts.
 
-Prompt:
+**Prompt:**
 
 > [your prompt]
 >
@@ -143,7 +143,7 @@ Prompt:
 
 # ChatGPT prompt optimizer
 
-Prompt:
+**Prompt:**
 
 > I'll provide a chatGPT prompt. You'll ask questions to understand the audience and goals, then optimize the prompt for effectiveness and relevance using the principle of specificity.
 
@@ -153,7 +153,7 @@ Prompt:
 
 If you're not satisfied with your solution you can ask to ChatGPT to give you alternatives
 
-Prompt:
+**Prompt:**
 
 > I'll provide you with a piece of code that I made and 
 >I need you give me alternatives to do the same in other way:
@@ -220,7 +220,7 @@ Prompt :
 
 Don't spend time trying to figure out how code works, just ask ChatGPT to explain it to you
 
-Prompt:
+**Prompt:**
 
 > Context: I'm starting a new position as backend developer and I have to start to understand how some functions are working
 >Technologies: [INSERT YOUR TECHNOLOGIES HERE]
@@ -236,7 +236,7 @@ Prompt:
 > [!NOTE]
 > Create a diagram of your architecture using Mermaid
 
-Prompt:
+**Prompt:**
 
 
 > Write the Mermaid code for an architecture diagram for this solution [DESCRIBE SOLUTION]
@@ -259,7 +259,7 @@ Example:
 
 Create an entity relationship diagram using Mermaid
 
-Prompt:
+**Prompt:**
 
 > Write the Mermaid code for an entity relationship diagram for these classes [INSERT CLASSES]
 
@@ -271,7 +271,7 @@ Prompt:
 
 Ask to ChatGPT to refactor your code
 
-Prompt:
+**Prompt:**
 > I have a piece of code and I need you do a refactor of it:
 >
 >[INSERT YOUR CODE HERE]
@@ -284,7 +284,7 @@ Refactoring code is an essential process in software development that aims to im
 
 By providing your old function to GPT-4 and asking it to refactor it to modern coding practices, you can quickly modernize your code.
 
-Prompt:
+**Prompt:**
 > Refactor the following code to modern es6 programming standards:
 >
 >[INSERT YOUR CODE HERE]
@@ -295,7 +295,7 @@ Prompt:
 
 If you have a long function that is doing too much, you can ask GPT-4 to refactor it into multiple methods.
 
-Prompt:
+**Prompt:**
 
 > Refactor the following code into multiple methods to improve readability and maintainability:
 >
@@ -307,7 +307,7 @@ Prompt:
 
 If you have a function that is taking too long to run, you can ask GPT-4 to refactor it to improve performance.
 
-Prompt:
+**Prompt:**
 
 > Refactor the following code to improve performance:
 >
@@ -317,7 +317,7 @@ Prompt:
 
 ## Adding a Parameter to a Function
 
-Prompt:
+**Prompt:**
 
 > Add a parameter to this function to do [FUNCTIONALITY]
 >
@@ -329,7 +329,7 @@ Prompt:
 
 Let ChatGPT rewrite the code for you according to style guidelines.
 
-Prompt:
+**Prompt:**
 > Rewrite the code below following the Google style guidelines for javascript.
 >
 > [INSERT YOUR CODE HERE]
@@ -340,7 +340,7 @@ Prompt:
 
 If your organization or code base uses specific coding practices and styles that you want to maintain, you can provide instructions to GPT-4 on which particular coding practice or style you’d like it to focus on.
 
-Prompt:
+**Prompt:**
 > Review the following code and refactor it to make it more DRY and adopt the SOLID programming principles.
 >
 >[INSERT YOUR CODE HERE]
@@ -372,7 +372,7 @@ Prompt 3#:
 
 This process typically involves identifying the source of the error, understanding the issue, and implementing a solution to resolve the issue
 
-Prompt:
+**Prompt:**
 
 > Please find and fix the bug in the [component name] component that is causing [describe the issue].
 >
@@ -399,7 +399,7 @@ Prompt 2#:
 
 There are many reasons why you may need to convert code from one language to another. For example, you may have found a repository with code for one language that you need in another, you’re moving code bases, or maybe your boss read an article on the latest front-end framework and now you’re moving to a divisive new library.
 
-Prompt:
+**Prompt:**
 > Rewrite the following code in Rust:
 >
 > [INSERT YOUR CODE HERE]
@@ -410,7 +410,7 @@ Prompt:
 
 Responsive design adapts a website to different screen sizes and devices, using flexible layouts, images, and CSS media queries. It aims to provide a good viewing experience for all users
 
-Prompt:
+**Prompt:**
 > RPlease implement responsive design for the [component name] component to ensure that it looks and functions correctly on different screen sizes and devices. Consider using [responsive design technique or library] to achieve this.
 >
 >[insert code here]
@@ -421,7 +421,7 @@ Prompt:
 
 Internationalization, also known as i18n, is the process of designing a software application to be able to support multiple languages and regional differences
 
-Prompt:
+**Prompt:**
 > Please implement internationalization for the [component name] component to ensure that it can be used by users in multiple languages. Consider using [internationalization library or technique] to achieve this.
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
@@ -430,7 +430,7 @@ Prompt:
 
 If your code is self-explanatory but requires commenting, this can be a huge time-saver.
 
-Prompt:
+**Prompt:**
 > Add comments to the following code:
 >
 > [INSERT YOUR CODE HERE]
@@ -443,7 +443,7 @@ Prompt:
 
 Provide context of your software and ask directly for creating functions you need for your software
 
-Prompt:
+**Prompt:**
 
 > Context: I'm creating a software to manage projects
 >
@@ -455,7 +455,7 @@ Prompt:
 
 Also you can add in the description what you expect to receive from your function. If you already have an structure for the User, specify it, for example:
 
-Prompt:
+**Prompt:**
 
 > Context: I'm creating a software to manage projects
 >
@@ -471,7 +471,7 @@ Prompt:
 
 A prompt to generate a Dockerfile for a specific framework.
 
-Prompt:
+**Prompt:**
 
 > Write a Dockerfile for:
 >
@@ -481,7 +481,7 @@ Prompt:
 
 ### Write a RegEx
 
-Prompt:
+**Prompt:**
 
 > Write a regular expression that matches / Write a RegEx pattern for:
 >
@@ -491,7 +491,7 @@ Prompt:
 
 ### Create a Class
 
-Prompt:
+**Prompt:**
 
 > Create a [PLATFORM] class from this JSON object
 >
@@ -501,7 +501,7 @@ Prompt:
 
 ## Add Functionality
 
-Prompt:
+**Prompt:**
 
 > I need a piece of code in [INSERT YOUR TECHNOLOGIES HERE] to implement [real-time communication]
 
@@ -511,7 +511,7 @@ Prompt:
 
 Starting new projects can be painful. While GPT-4 doesn’t know your business logic, it can be used to generate boilerplate code. This isn’t technically refactoring, but it’s amazing and can be part of the programming lifecycle process.
 
-Prompt:
+**Prompt:**
 
 >Write me a boilerplate Node.js function that will take a variable of type User,
 >validate that the user has the right permissions, fetch an array of item type Posts
@@ -523,7 +523,7 @@ Prompt:
 
 In this clip I show you how to *drastically* improve ChatGPT’s outputs for software generation.
 
-Prompt:
+**Prompt:**
 
 >You are a world class software engineer.
 >
@@ -542,7 +542,7 @@ Prompt:
 
 ## Error Hendling
 
-Prompt:
+**Prompt:**
 
 > How can I improve the error handling in my [LANGUAGE] code? [CODE]
 
@@ -550,7 +550,7 @@ Prompt:
 
 ## Suggest Improvements
 
-Prompt:
+**Prompt:**
 
 > I'm working on a [LANGUAGE] project and I need you to review my code and suggest improvements. [CODE]
 
@@ -561,7 +561,7 @@ Prompt:
 
 ## Generate innovative product ideas
 
-Prompt:
+**Prompt:**
 
 >Brainstorm creative and unique product ideas for [insert industry or market]. 
 >
@@ -571,7 +571,7 @@ Prompt:
 
 ## Develop a unique value proposition
 
-Prompt:
+**Prompt:**
 
 >Help me articulate a unique value proposition for my [insert product or service].
 >
@@ -581,7 +581,7 @@ Prompt:
 
 ## Master the art of storytelling for marketing
 
-Prompt:
+**Prompt:**
 
 >Teach me storytelling techniques for creating compelling marketing content to promote [insert product or service].
 
@@ -589,7 +589,7 @@ Prompt:
 
 ## Create a successful referral program
 
-Prompt:
+**Prompt:**
 
 >Design a referral program for [insert business] that incentivizes customers to share and recommend our products or services.
 
@@ -597,7 +597,7 @@ Prompt:
 
 ## Master the art of upselling and cross-selling
 
-Prompt:
+**Prompt:**
 
 >Teach me effective upselling and cross-selling techniques to increase revenue and customer satisfaction in [insert business context].
 
@@ -605,7 +605,7 @@ Prompt:
 
 ## Create a viral marketing campaign
 
-Prompt:
+**Prompt:**
 
 >Design a creative and attention-grabbing marketing campaign for [insert product or service] with the potential to go viral.
 
@@ -613,7 +613,7 @@ Prompt:
 
 ## Develop a powerful elevator pitch
 
-Prompt:
+**Prompt:**
 
 >[Insert a brief description of your product, service, or company].
 >
@@ -623,7 +623,7 @@ Prompt:
 
 ## Create an actionable marketing plan
 
-Prompt:
+**Prompt:**
 
 >Develop a marketing plan for [insert product or service]. 
 >
@@ -633,7 +633,7 @@ Prompt:
 
 ## Leverage content marketing for lead generation
 
-Prompt:
+**Prompt:**
 
 >Develop a content marketing strategy for [insert business] to attract, engage, and convert leads into customers.
 
