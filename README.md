@@ -10,19 +10,30 @@ The list is divided into categories: [ prompts for coders, students, marketers, 
 
 Prompts for Coders
 
+- [A Multi-Prompt Approach (Prompt Chaining)](#a-multi-prompt-approach-prompt-chaining)
+  - [1. Modernize and add best practices](#1-modernize-and-add-best-practices)
+  - [2. Review your code for logical errors and security concerns](#2-review-your-code-for-logical-errors-and-security-concerns)
+  - [3. Validate the recommendations (reflexion)](#3-validate-the-recommendations-reflexion)
+  - [4. Write the Code](#4-write-the-code)
+  - [5. Create Tests](#5-create-tests)
 - [Re-write Prompt](#re-write-prompt)
 - [ChatGPT prompt optimizer](#chatgpt-prompt-optimizer)
-- [Direction / Advise / Questions](#direction--advise--questions)
-- [Adding Documentation](#adding-documentation)
-- [Write your terms and conditions](#write-your-terms-and-conditions)
-- [Produce cheat sheets](#produce-cheat-sheets)
-- [Generate Readme Files](#generate-readme-files)
-- [Write detailed blogs](#write-detailed-blogs)
-- [Explain Code](#explain-code)
 - [Ask for alternatives](#ask-for-alternatives)
+- [Documentation / Explaination](#documentation--explaination)
+  - [Adding Documentation](#adding-documentation)
+  - [Write your terms and conditions](#write-your-terms-and-conditions)
+  - [Produce cheat sheets](#produce-cheat-sheets)
+  - [Generate Readme Files](#generate-readme-files)
+  - [Write detailed blogs](#write-detailed-blogs)
+  - [Explain Code](#explain-code)
+  - [Architecture Diagram (Mermaid)](#architecture-diagram-mermaid)
+  - [Entity Relationship Diagram (Mermaid)](#entity-relationship-diagram-mermaid)
 - [Code Refactoring](#code-refactoring)
   - [Refactor Code](#refactor-code)
   - [Modernizing Old Code](#modernizing-old-code)
+  - [Code in to Multiple Methods](#code-in-to-multiple-methods)
+  - [Better Performance](#better-performance)
+  - [Adding a Parameter to a Function](#adding-a-parameter-to-a-function)
   - [Adding Coding Best Practices or Principles](#adding-coding-best-practices-or-principles)
   - [Follow coding style guidelines](#follow-coding-style-guidelines)
   - [Detecting and Fixing Errors](#detecting-and-fixing-errors)
@@ -34,9 +45,15 @@ Prompts for Coders
   - [Add comments to code](#add-comments-to-code)
 - [Code Generation](#code-generation)
   - [Create Functions](#create-functions)
+  - [Generate a Dockerfile](#generate-a-dockerfile)
+  - [Write a RegEx](#write-a-regex)
+  - [Create a Class](#create-a-class)
   - [Add Functionality](#add-functionality)
   - [Create Boilerplate Code](#create-boilerplate-code)
   - [You are a world class software engineer](#you-are-a-world-class-software-engineer)
+- [Code Review](#code-review)
+  - [Error Hendling](#error-hendling)
+  - [Suggest Improvements](#suggest-improvements)
 - [Product Service Promotion](#product-service-promotion)
   - [Generate innovative product ideas](#generate-innovative-product-ideas)
   - [Develop a unique value proposition](#develop-a-unique-value-proposition)
@@ -48,7 +65,7 @@ Prompts for Coders
   - [Create an actionable marketing plan](#create-an-actionable-marketing-plan)
   - [Leverage content marketing for lead generation](#leverage-content-marketing-for-lead-generation)
 
-## 🚩 Tips
+# 🚩 Tips
 
 Like many things in life, with GPT-4, you get out what you put in. In this case, providing more context, instructions, and guidance will usually produce better results.
 
@@ -66,11 +83,11 @@ Don’t be afraid to list exactly what you want, what you know, what is needed, 
 - **Ask it to Reflect:**
 A technique called reflexion has been shown to increase GPT4’s accuracy. Basically ask it ‘Why were you wrong?’ or get it to reflect and review its own response. 🤔
 
-## 🔗 A multi-prompt approach (prompt chaining)
+# 🔗 A multi-prompt approach (prompt chaining)
 
 can be used to update, refactor, and review a piece of code. A well-designed set of prompts is one where each has separated concerns and singular responsibilities.
 
-### 1. Modernize and add best practices
+## 1. Modernize and add best practices
 
 by getting GPT-4 to re-write your code into the style you want. This step will generally result in coherent output, in the style you want, but may introduce errors, so we do it first.
 
@@ -80,7 +97,7 @@ Prompt:
 >
 >[insert code here]
 
-### 2. Review your code for logical errors and security concerns
+## 2. Review your code for logical errors and security concerns
 
 Get recommendations to improve any logical or security concerns introduced. It’s important that we don’t ask for a refactor, just the reasoning behind wanting the refactor.
 
@@ -88,7 +105,7 @@ Prompt:
 
 >Review your provided code 'tempFunction' for any logical or security concerns and provide a list of recommendations.
 
-### 3. Validate the recommendations (reflexion)
+## 3. Validate the recommendations (reflexion)
 
 Validate the provided recommendations. Reflexion is a powerful technique to improve the accuracy of the initial recommendations and try to eliminate any hallucinations. This is not always required but it is worth asking if you are unsure about any recommendations.
 
@@ -96,7 +113,7 @@ Prompt:
 
 > Review your above recommendations. Tell me why you were wrong and if any recommendations were overlooked or incorrectly added?
 
-### 4. Write the Code
+## 4. Write the Code
 
 Combine your reviews, recommendations and feedback to get GPT-4 to write your new function.
 
@@ -104,7 +121,7 @@ Prompt:
 
 >Re-write the 'tempFunction' function based off your review and recommendations.
 
-### 5. Create Tests
+## 5. Create Tests
 
 create some simple tests that we can run locally and validate the results
 
@@ -112,7 +129,7 @@ Prompt:
 
 > Create two [ define technology ] tests for the above 'tempFunction' function. One that is expected to pass and one that is expected to fail.
 
-## Re-write Prompt
+# Re-write Prompt
 
 Let's see if we can get GPT4 to make or average prompts and turn them into "voyage inspirant" type mastery prompts.
 
@@ -124,7 +141,7 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-## ChatGPT prompt optimizer
+# ChatGPT prompt optimizer
 
 Prompt:
 
@@ -132,7 +149,22 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-## Direction / Advise / Questions
+# Ask for alternatives
+
+If you're not satisfied with your solution you can ask to ChatGPT to give you alternatives
+
+Prompt:
+
+> I'll provide you with a piece of code that I made and 
+>I need you give me alternatives to do the same in other way:
+>
+>[INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+---
+
+# Documentation / Explaination
 
 ## Adding Documentation
 
@@ -198,16 +230,23 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-## Ask for alternatives
+## Architecture Diagram (Mermaid)
 
-If you're not satisfied with your solution you can ask to ChatGPT to give you alternatives
+Create a diagram of your architecture using Mermaid
 
 Prompt:
 
-> I'll provide you with a piece of code that I made and 
->I need you give me alternatives to do the same in other way:
->
->[INSERT YOUR CODE HERE]
+> Write the Mermaid code for an architecture diagram for this solution [DESCRIBE SOLUTION]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Entity Relationship Diagram (Mermaid)
+
+Create an entity relationship diagram using Mermaid
+
+Prompt:
+
+> Write the Mermaid code for an entity relationship diagram for these classes [INSERT CLASSES]
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
@@ -232,6 +271,40 @@ By providing your old function to GPT-4 and asking it to refactor it to modern c
 
 Prompt:
 > Refactor the following code to modern es6 programming standards:
+>
+>[INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Code in to Multiple Methods
+
+If you have a long function that is doing too much, you can ask GPT-4 to refactor it into multiple methods.
+
+Prompt:
+
+> Refactor the following code into multiple methods to improve readability and maintainability:
+>
+>[INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Better Performance
+
+If you have a function that is taking too long to run, you can ask GPT-4 to refactor it to improve performance.
+
+Prompt:
+
+> Refactor the following code to improve performance:
+>
+>[INSERT YOUR CODE HERE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Adding a Parameter to a Function
+
+Prompt:
+
+> Add a parameter to this function to do [FUNCTIONALITY]
 >
 >[INSERT YOUR CODE HERE]
 
@@ -272,7 +345,11 @@ Prompt 2#:
 
 >I'm developing software in [INSERT YOUR TECHNOLOGIES HERE] and I need you help me to find and
 fix all the errors in my code, following the best practices. I'll provide you my code
-and you'll give me the code with all the corrections explained line by line 
+and you'll give me the code with all the corrections explained line by line
+
+Prompt 3#:
+
+> I wrote this code [CODE] I got this error [ERROR] How can I fix it? or What does this error mean?
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
@@ -347,7 +424,7 @@ Prompt:
 
 ## Code Generation
 
-## Create Functions
+### Create Functions
 
 Provide context of your software and ask directly for creating functions you need for your software
 
@@ -372,6 +449,38 @@ Prompt:
 > Description: It's a function that let me find users by its email or username and returns the structure type "Member"
 >
 > You have to: create the function for me
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### Generate a Dockerfile
+
+A prompt to generate a Dockerfile for a specific framework.
+
+Prompt:
+
+> Write a Dockerfile for:
+>
+> [FRAMEWORK]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### Write a RegEx
+
+Prompt:
+
+> Write a regular expression that matches / Write a RegEx pattern for:
+>
+> [REQUEST]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+### Create a Class
+
+Prompt:
+
+> Create a [PLATFORM] class from this JSON object
+>
+> [JSON]
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
@@ -414,7 +523,26 @@ Prompt:
 
 <sup>[back to table of contents](#table-of-contents)</sup>
 
-## Product Service Promotion
+# Code Review
+
+## Error Hendling
+
+Prompt:
+
+> How can I improve the error handling in my [LANGUAGE] code? [CODE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+## Suggest Improvements
+
+Prompt:
+
+> I'm working on a [LANGUAGE] project and I need you to review my code and suggest improvements. [CODE]
+
+<sup>[back to table of contents](#table-of-contents)</sup>
+
+
+# Product Service Promotion
 
 ## Generate innovative product ideas
 
@@ -499,4 +627,4 @@ Prompt:
 ## 📚 Tools
 
 - [ChatGPT](https://chat.openai.com/)
-- ...
+- [Bard](https://bard.google.com/)
