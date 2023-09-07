@@ -21,50 +21,50 @@ Prompts for Coders
 - [ChatGPT prompt optimizer](#chatgpt-prompt-optimizer)
 - [Ask for alternatives](#ask-for-alternatives)
 - [Documentation / Explaination](#documentation--explaination)
-  - [Adding Documentation](#adding-documentation)
-  - [Write your terms and conditions](#write-your-terms-and-conditions)
-  - [Produce cheat sheets](#produce-cheat-sheets)
-  - [Generate Readme Files](#generate-readme-files)
-  - [Write detailed blogs](#write-detailed-blogs)
-  - [Explain Code](#explain-code)
-  - [Architecture Diagram (Mermaid)](#architecture-diagram-mermaid)
-  - [Entity Relationship Diagram (Mermaid)](#entity-relationship-diagram-mermaid)
+  - [📣 Adding Documentation](#-adding-documentation)
+  - [📣 Write your terms and conditions](#-write-your-terms-and-conditions)
+  - [📣 Produce cheat sheets](#-produce-cheat-sheets)
+  - [📣 Generate Readme Files](#-generate-readme-files)
+  - [📣 Write detailed blogs](#-write-detailed-blogs)
+  - [📣 Explain Code](#-explain-code)
+  - [📣 Architecture Diagram (Mermaid)](#-architecture-diagram-mermaid)
+  - [📣 Entity Relationship Diagram (Mermaid)](#-entity-relationship-diagram-mermaid)
 - [Code Refactoring](#code-refactoring)
-  - [Refactor Code](#refactor-code)
-  - [Modernizing Old Code](#modernizing-old-code)
-  - [Code in to Multiple Methods](#code-in-to-multiple-methods)
-  - [Better Performance](#better-performance)
-  - [Adding a Parameter to a Function](#adding-a-parameter-to-a-function)
-  - [Adding Coding Best Practices or Principles](#adding-coding-best-practices-or-principles)
-  - [Follow coding style guidelines](#follow-coding-style-guidelines)
-  - [Detecting and Fixing Errors](#detecting-and-fixing-errors)
-  - [Debug a React component](#debug-a-react-component)
-  - [Create Unit Tests](#create-unit-tests)
-  - [Transpiling Code](#transpiling-code)
-  - [Responsive Design](#responsive-design)
-  - [Internationalization](#internationalization)
-  - [Add comments to code](#add-comments-to-code)
+  - [📣 Refactor Code](#-refactor-code)
+  - [📣 Modernizing Old Code](#-modernizing-old-code)
+  - [📣 Code in to Multiple Methods](#-code-in-to-multiple-methods)
+  - [📣 Better Performance](#-better-performance)
+  - [📣 Adding a Parameter to a Function](#-adding-a-parameter-to-a-function)
+  - [📣 Adding Coding Best Practices or Principles](#-adding-coding-best-practices-or-principles)
+  - [📣 Follow coding style guidelines](#-follow-coding-style-guidelines)
+  - [📣 Detecting and Fixing Errors](#-detecting-and-fixing-errors)
+  - [📣 Debug a React component](#-debug-a-react-component)
+  - [📣 Create Unit Tests](#-create-unit-tests)
+  - [📣 Transpiling Code](#-transpiling-code)
+  - [📣 Responsive Design](#-responsive-design)
+  - [📣 Internationalization](#-internationalization)
+  - [📣 Add comments to code](#-add-comments-to-code)
 - [Code Generation](#code-generation)
-  - [Create Functions](#create-functions)
-  - [Generate a Dockerfile](#generate-a-dockerfile)
-  - [Write a RegEx](#write-a-regex)
-  - [Create a Class](#create-a-class)
-  - [Add Functionality](#add-functionality)
-  - [Create Boilerplate Code](#create-boilerplate-code)
-  - [You are a world class software engineer](#you-are-a-world-class-software-engineer)
+  - [📣 Create Functions](#-create-functions)
+  - [📣 Generate a Dockerfile](#-generate-a-dockerfile)
+  - [📣 Write a RegEx](#-write-a-regex)
+  - [📣 Create a Class](#-create-a-class)
+  - [📣 Add Functionality](#-add-functionality)
+  - [📣 Create Boilerplate Code](#-create-boilerplate-code)
+  - [📣 You are a world class software engineer](#-you-are-a-world-class-software-engineer)
 - [Code Review](#code-review)
-  - [Error Hendling](#error-hendling)
-  - [Suggest Improvements](#suggest-improvements)
+  - [📣 Error Hendling](#-error-hendling)
+  - [📣 Suggest Improvements](#-suggest-improvements)
 - [Product Service Promotion](#product-service-promotion)
-  - [Generate innovative product ideas](#generate-innovative-product-ideas)
-  - [Develop a unique value proposition](#develop-a-unique-value-proposition)
-  - [Master the art of storytelling for marketing](#master-the-art-of-storytelling-for-marketing)
-  - [Create a successful referral program](#create-a-successful-referral-program)
-  - [Master the art of upselling and cross-selling](#master-the-art-of-upselling-and-cross-selling)
-  - [Create a viral marketing campaign](#create-a-viral-marketing-campaign)
-  - [Develop a powerful elevator pitch](#develop-a-powerful-elevator-pitch)
-  - [Create an actionable marketing plan](#create-an-actionable-marketing-plan)
-  - [Leverage content marketing for lead generation](#leverage-content-marketing-for-lead-generation)
+  - [📣 Generate innovative product ideas](#-generate-innovative-product-ideas)
+  - [📣 Develop a unique value proposition](#-develop-a-unique-value-proposition)
+  - [📣 Master the art of storytelling for marketing](#-master-the-art-of-storytelling-for-marketing)
+  - [📣 Create a successful referral program](#-create-a-successful-referral-program)
+  - [📣 Master the art of upselling and cross-selling](#-master-the-art-of-upselling-and-cross-selling)
+  - [📣 Create a viral marketing campaign](#-create-a-viral-marketing-campaign)
+  - [📣 Develop a powerful elevator pitch](#-develop-a-powerful-elevator-pitch)
+  - [📣 Create an actionable marketing plan](#-create-an-actionable-marketing-plan)
+  - [📣 Leverage content marketing for lead generation](#-leverage-content-marketing-for-lead-generation)
 
 ## 🚩 Tips
 
@@ -89,6 +89,7 @@ A technique called reflexion has been shown to increase GPT4’s accuracy. Basic
 can be used to update, refactor, and review a piece of code. A well-designed set of prompts is one where each has separated concerns and singular responsibilities.
 
 ### 1. Modernize and add best practices
+
 ---
 
 by getting GPT-4 to re-write your code into the style you want. This step will generally result in coherent output, in the style you want, but may introduce errors, so we do it first.
@@ -102,6 +103,7 @@ Review the following code and re-write it to modern es6 programming standards an
 ```
 
 ### 2. Review your code for logical errors and security concerns
+
 ---
 
 Get recommendations to improve any logical or security concerns introduced. It’s important that we don’t ask for a refactor, just the reasoning behind wanting the refactor.
@@ -113,6 +115,7 @@ Review your provided code 'tempFunction' for any logical or security concerns an
 ```
 
 ### 3. Validate the recommendations (reflexion)
+
 ---
 
 Validate the provided recommendations. Reflexion is a powerful technique to improve the accuracy of the initial recommendations and try to eliminate any hallucinations. This is not always required but it is worth asking if you are unsure about any recommendations.
@@ -124,6 +127,7 @@ Review your above recommendations. Tell me why you were wrong and if any recomme
 ```
 
 ### 4. Write the Code
+
 ---
 
 Combine your reviews, recommendations and feedback to get GPT-4 to write your new function.
@@ -135,6 +139,7 @@ Re-write the 'tempFunction' function based off your review and recommendations.
 ```
 
 ### 5. Create Tests
+
 ---
 
 Create some simple tests that we can run locally and validate the results
@@ -188,8 +193,7 @@ I need you give me alternatives to do the same in other way:
 
 ## Documentation / Explaination
 
-### Adding Documentation
----
+### 📣 Adding Documentation
 
 > [!NOTE]
 > Adding documentation requires creating clear and comprehensive explanations of a module’s purpose, design, and implementation.
@@ -212,8 +216,7 @@ Please add comprehensive documentation for [file or module name], including clea
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Write your terms and conditions
----
+### 📣 Write your terms and conditions
 
 **Prompt:**
 
@@ -223,8 +226,7 @@ Create terms and services for my website about an [AI tool] called [name].
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Produce cheat sheets
----
+### 📣 Produce cheat sheets
 
 **Prompt:**
 
@@ -234,8 +236,7 @@ Write a cheat sheet for [markdown formatting].
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Generate Readme Files
----
+### 📣 Generate Readme Files
 
 **Prompt:**
 
@@ -247,8 +248,7 @@ Generate documentation for the code below. You should include detailed instructi
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Write detailed blogs
----
+### 📣 Write detailed blogs
 
 **Prompt:**
 
@@ -258,9 +258,7 @@ Write a detailed blog on How to build a [COVID tracker] using React with proper 
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Explain Code
-
----
+### 📣 Explain Code
 
 > [!NOTE]
 > Don't spend time trying to figure out how code works, just ask ChatGPT to explain it to you
@@ -277,9 +275,7 @@ You have to: explain me the code line by line
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Architecture Diagram (Mermaid)
-
----
+### 📣 Architecture Diagram (Mermaid)
 
 > [!NOTE]
 > Create a diagram of your architecture using Mermaid
@@ -303,9 +299,7 @@ Example:
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Entity Relationship Diagram (Mermaid)
-
----
+### 📣 Entity Relationship Diagram (Mermaid)
 
 > [!NOTE]
 > Create an entity relationship diagram using Mermaid
@@ -320,9 +314,7 @@ Write the Mermaid code for an entity relationship diagram for these classes [INS
 
 ## Code Refactoring
 
-### Refactor Code
-
----
+### 📣 Refactor Code
 
 > [!NOTE]
 > Ask to ChatGPT to refactor your code
@@ -339,9 +331,7 @@ Refactoring code is an essential process in software development that aims to im
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Modernizing Old Code
-
----
+### 📣 Modernizing Old Code
 
 > [!NOTE]
 > By providing your old function to GPT-4 and asking it to refactor it to modern coding practices, you can quickly modernize your code.
@@ -356,9 +346,7 @@ Refactor the following code to modern es6 programming standards:
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Code in to Multiple Methods
-
----
+### 📣 Code in to Multiple Methods
 
 > [!NOTE]
 >If you have a long function that is doing too much, you can ask GPT-4 to refactor it into multiple methods.
@@ -373,9 +361,7 @@ Refactor the following code into multiple methods to improve readability and mai
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Better Performance
-
----
+### 📣 Better Performance
 
 > [!NOTE]
 > If you have a function that is taking too long to run, you can ask GPT-4 to refactor it to improve performance.
@@ -390,9 +376,7 @@ Refactor the following code to improve performance:
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Adding a Parameter to a Function
-
----
+### 📣 Adding a Parameter to a Function
 
 **Prompt:**
 
@@ -404,9 +388,7 @@ Add a parameter to this function to do [FUNCTIONALITY]
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Adding Coding Best Practices or Principles
-
----
+### 📣 Adding Coding Best Practices or Principles
 
 > [!NOTE]
 >Let ChatGPT rewrite the code for you according to style guidelines.
@@ -421,9 +403,7 @@ Rewrite the code below following the Google style guidelines for javascript.
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Follow coding style guidelines
-
----
+### 📣 Follow coding style guidelines
 
 > [!NOTE]
 > If your organization or code base uses specific coding practices and styles that you want to maintain, you can provide instructions to GPT-4 on which particular coding practice or style you’d like it to focus on.
@@ -438,9 +418,7 @@ Review the following code and refactor it to make it more DRY and adopt the SOLI
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Detecting and Fixing Errors
-
----
+### 📣 Detecting and Fixing Errors
 
 > [!NOTE]
 >Sometimes we are unaware of the vulnerabilities or potential issues our code can create. Having GPT-4 review and address code issues can save you more than just time.
@@ -469,9 +447,7 @@ I wrote this code [CODE] I got this error [ERROR] How can I fix it? or What does
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Debug a React component
-
----
+### 📣 Debug a React component
 
 > [!NOTE]
 >This process typically involves identifying the source of the error, understanding the issue, and implementing a solution to resolve the issue
@@ -486,9 +462,7 @@ Please find and fix the bug in the [component name] component that is causing [d
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Create Unit Tests
-
----
+### 📣 Create Unit Tests
 
 > [!NOTE]
 >Unit tests are automated tests that check the behavior of individual units of code in isolation. They help catch bugs early and make it easier to maintain the code.
@@ -509,9 +483,7 @@ Create 2 unit tests for the provided code. One for a successful condition and on
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Transpiling Code
-
----
+### 📣 Transpiling Code
 
 > [!NOTE]
 >There are many reasons why you may need to convert code from one language to another. For example, you may have found a repository with code for one language that you need in another, you’re moving code bases, or maybe your boss read an article on the latest front-end framework and now you’re moving to a divisive new library.
@@ -526,9 +498,7 @@ Rewrite the following code in Rust:
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Responsive Design
-
----
+### 📣 Responsive Design
 
 > [!NOTE]
 >Responsive design adapts a website to different screen sizes and devices, using flexible layouts, images, and CSS media queries. It aims to provide a good viewing experience for all users
@@ -543,9 +513,7 @@ RPlease implement responsive design for the [component name] component to ensure
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Internationalization
-
----
+### 📣 Internationalization
 
 > [!NOTE]
 >Internationalization, also known as i18n, is the process of designing a software application to be able to support multiple languages and regional differences
@@ -558,9 +526,7 @@ Please implement internationalization for the [component name] component to ensu
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Add comments to code
-
----
+### 📣 Add comments to code
 
 > [!NOTE]
 >If your code is self-explanatory but requires commenting, this can be a huge time-saver.
@@ -577,9 +543,7 @@ Add comments to the following code:
 
 ## Code Generation
 
-### Create Functions
-
----
+### 📣 Create Functions
 
 > [!NOTE]
 >Provide context of your software and ask directly for creating functions you need for your software
@@ -612,9 +576,7 @@ You have to: create the function for me
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Generate a Dockerfile
-
----
+### 📣 Generate a Dockerfile
 
 > [!NOTE]
 >A prompt to generate a Dockerfile for a specific framework.
@@ -629,9 +591,7 @@ Write a Dockerfile for:
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Write a RegEx
-
----
+### 📣 Write a RegEx
 
 **Prompt:**
 
@@ -643,9 +603,7 @@ Write a regular expression that matches / Write a RegEx pattern for:
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Create a Class
-
----
+### 📣 Create a Class
 
 **Prompt:**
 
@@ -657,9 +615,7 @@ Create a [PLATFORM] class from this JSON object
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Add Functionality
-
----
+### 📣 Add Functionality
 
 **Prompt:**
 
@@ -669,9 +625,7 @@ I need a piece of code in [INSERT YOUR TECHNOLOGIES HERE] to implement [real-tim
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Create Boilerplate Code
-
----
+### 📣 Create Boilerplate Code
 
 > [!NOTE]
 >Starting new projects can be painful. While GPT-4 doesn’t know your business logic, it can be used to generate boilerplate code. This isn’t technically refactoring, but it’s amazing and can be part of the programming lifecycle process.
@@ -684,9 +638,7 @@ Write me a boilerplate Node.js function that will take a variable of type User, 
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### You are a world class software engineer
-
----
+### 📣 You are a world class software engineer
 
 > [!NOTE]
 >In this clip I show you how to *drastically* improve ChatGPT’s outputs for software generation.
@@ -710,9 +662,7 @@ I will then reply with "build," and you will proceed to implement the exact spec
 
 ## Code Review
 
-### Error Hendling
-
----
+### 📣 Error Hendling
 
 **Prompt:**
 
@@ -722,9 +672,7 @@ How can I improve the error handling in my [LANGUAGE] code? [CODE]
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Suggest Improvements
-
----
+### 📣 Suggest Improvements
 
 **Prompt:**
 
@@ -737,9 +685,7 @@ I'm working on a [LANGUAGE] project and I need you to review my code and suggest
 
 ## Product Service Promotion
 
-### Generate innovative product ideas
-
----
+### 📣 Generate innovative product ideas
 
 **Prompt:**
 
@@ -751,9 +697,7 @@ Focus on solving customer pain points and providing exceptional value.
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Develop a unique value proposition
-
----
+### 📣 Develop a unique value proposition
 
 **Prompt:**
 
@@ -765,9 +709,7 @@ Explain how this proposition differentiates my offering and appeals to my target
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Master the art of storytelling for marketing
-
----
+### 📣 Master the art of storytelling for marketing
 
 **Prompt:**
 
@@ -777,9 +719,7 @@ Teach me storytelling techniques for creating compelling marketing content to pr
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Create a successful referral program
-
----
+### 📣 Create a successful referral program
 
 **Prompt:**
 
@@ -789,9 +729,7 @@ Design a referral program for [insert business] that incentivizes customers to s
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Master the art of upselling and cross-selling
-
----
+### 📣 Master the art of upselling and cross-selling
 
 **Prompt:**
 
@@ -801,9 +739,7 @@ Teach me effective upselling and cross-selling techniques to increase revenue an
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Create a viral marketing campaign
-
----
+### 📣 Create a viral marketing campaign
 
 **Prompt:**
 
@@ -813,9 +749,7 @@ Design a creative and attention-grabbing marketing campaign for [insert product 
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Develop a powerful elevator pitch
-
----
+### 📣 Develop a powerful elevator pitch
 
 **Prompt:**
 
@@ -827,9 +761,7 @@ Help me create a concise and compelling elevator pitch that will effectively com
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Create an actionable marketing plan
-
----
+### 📣 Create an actionable marketing plan
 
 **Prompt:**
 
@@ -841,9 +773,7 @@ Include objectives, target audience, marketing channels, and tactics for reachin
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
-### Leverage content marketing for lead generation
-
----
+### 📣 Leverage content marketing for lead generation
 
 **Prompt:**
 
