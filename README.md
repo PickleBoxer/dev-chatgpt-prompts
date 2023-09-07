@@ -10,7 +10,8 @@ The list is divided into categories: [ prompts for coders, students, marketers, 
 
 Prompts for Coders
 
-- [A Multi-Prompt Approach (Prompt Chaining)](#a-multi-prompt-approach-prompt-chaining)
+- [🚩 Tips](#-tips)
+- [🔗 A Multi-Prompt Approach (Prompt Chaining)](#-a-multi-prompt-approach-prompt-chaining)
   - [1. Modernize and add best practices](#1-modernize-and-add-best-practices)
   - [2. Review your code for logical errors and security concerns](#2-review-your-code-for-logical-errors-and-security-concerns)
   - [3. Validate the recommendations (reflexion)](#3-validate-the-recommendations-reflexion)
@@ -852,7 +853,21 @@ Develop a content marketing strategy for [insert business] to attract, engage, a
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
+<details>
+
+<summary>
+
 ## 📚 Tools
+
+</summary>
 
 - [ChatGPT](https://chat.openai.com/)
 - [Bard](https://bard.google.com/)
+
+</details>
+
+<style>
+  code {
+    white-space: pre-wrap;
+  }
+</style>
