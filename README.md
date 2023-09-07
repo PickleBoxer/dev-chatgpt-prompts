@@ -865,9 +865,3 @@ Develop a content marketing strategy for [insert business] to attract, engage, a
 - [Bard](https://bard.google.com/)
 
 </details>
-
-<style>
-  code {
-    white-space: pre-wrap;
-  }
-</style>
