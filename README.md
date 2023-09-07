@@ -847,9 +847,9 @@ Include objectives, target audience, marketing channels, and tactics for reachin
 
 **Prompt:**
 
-> ```
-> Develop a content marketing strategy for [insert business] to attract, engage, and convert leads into customers.
-> ```
+`
+Develop a content marketing strategy for [insert business] to attract, engage, and convert leads into customers.
+`
 
 <sup>[⬆️ Back to table of contents](#table-of-contents)</sup>
 
