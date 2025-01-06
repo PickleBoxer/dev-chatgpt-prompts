@@ -82,7 +82,7 @@ Provide expected inputs, data and outputs to improve accuracy quality. 📝
 Don’t be afraid to list exactly what you want, what you know, what is needed, and what not to include. 🔎
 
 - **Ask it to Reflect:**
-A technique called reflexion has been shown to increase GPT4’s accuracy. Basically ask it ‘Why were you wrong?’ or get it to reflect and review its own response. 🤔
+A technique called reflection has been shown to increase GPT4’s accuracy. Basically ask it ‘Why were you wrong?’ or get it to reflect and review its own response. 🤔
 
 ## 🔗 A multi-prompt approach (prompt chaining)
 
@@ -114,11 +114,11 @@ Get recommendations to improve any logical or security concerns introduced. It�
 Review your provided code 'tempFunction' for any logical or security concerns and provide a list of recommendations.
 ```
 
-### 3. Validate the recommendations (reflexion)
+### 3. Validate the recommendations (reflection)
 
 ---
 
-Validate the provided recommendations. Reflexion is a powerful technique to improve the accuracy of the initial recommendations and try to eliminate any hallucinations. This is not always required but it is worth asking if you are unsure about any recommendations.
+Validate the provided recommendations. Reflection is a powerful technique to improve the accuracy of the initial recommendations and try to eliminate any hallucinations. This is not always required but it is worth asking if you are unsure about any recommendations.
 
 **Prompt:**
 
